@@ -6,20 +6,11 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    /* color: #000000; */
 }
 
 body {
     font-family: "Raleway", sans-serif;
 }
-
-/* section {
-    text-align: center;
-}
-
-div {
-    text-align: center;
-} */
 
 .awesome {
     padding: 100px 0;
