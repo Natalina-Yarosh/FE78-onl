@@ -1,105 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
-    <title>Home Work</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Home Work</title>
 </head>
-<body>
-    <section class="features">
-  <h2 class="features__title">WHY THIS IS AWESOME</h2>
-  <div class="features__line"></div>
-  <p class="features__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-  <div class="features__container">
-    <div class="feature-card">
-      <div class="feature-card__icon">
-        <svg width="73" height="72" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M27.5475 53.983H44.4714M36.0113 3.41669V7.02856M59.0594 12.9376L56.4989 15.4912M68.606 35.9236H64.9844M7.03814 35.9236H3.4165M15.5236 15.4912L12.9631 12.9376M23.2051 48.6952C20.6731 46.1693 18.949 42.9515 18.2507 39.4484C17.5523 35.9454 17.9112 32.3145 19.2819 29.0148C20.6526 25.7152 22.9736 22.895 25.9514 20.9108C28.9292 18.9266 32.43 17.8676 36.0113 17.8676C39.5925 17.8676 43.0934 18.9266 46.0711 20.9108C49.0489 22.895 51.3699 25.7152 52.7406 29.0148C54.1113 32.3145 54.4702 35.9454 53.7719 39.4484C53.0735 42.9515 51.3494 46.1693 48.8174 48.6952L46.8327 50.6709C45.6981 51.8027 44.7981 53.1462 44.1842 54.6249C43.5702 56.1036 43.2543 57.6884 43.2545 59.2888V61.2067C43.2545 63.1226 42.4914 64.96 41.133 66.3147C39.7747 67.6694 37.9323 68.4305 36.0113 68.4305C34.0902 68.4305 32.2479 67.6694 30.8895 66.3147C29.5311 64.96 28.768 63.1226 28.768 61.2067V59.2888C28.768 56.0562 27.4787 52.9536 25.1898 50.6709L23.2051 48.6952Z" stroke="#EC7979" stroke-width="6.83333" stroke-linecap="round" stroke-linejoin="round"/>
+<body>
+  <section class="features">
+    <div class="container">
+      <h2 class="features__title">WHY THIS IS AWESOME</h2>
+      <div class="features__line"></div>
+      <p class="features__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <div class="features__cards">
+        <div class="feature__card">
+          <div class="feature-card__icon">
+            <svg width="93" height="92" viewBox="0 0 93 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.6608 64.0594H54.5847M46.1245 13.4931V17.105M69.1727 23.014L66.6122 25.5676M78.7193 46H75.0977M17.1514 46H13.5298M25.6369 25.5676L23.0764 23.014M33.3184 58.7716C30.7864 56.2458 29.0623 53.0279 28.3639 49.5248C27.6656 46.0218 28.0245 42.3909 29.3952 39.0912C30.7659 35.7916 33.0869 32.9714 36.0647 30.9872C39.0424 29.003 42.5433 27.944 46.1245 27.944C49.7058 27.944 53.2066 29.003 56.1844 30.9872C59.1622 32.9714 61.4832 35.7916 62.8539 39.0912C64.2246 42.3909 64.5835 46.0218 63.8851 49.5248C63.1868 53.0279 61.4627 56.2458 58.9307 58.7716L56.946 60.7473C55.8114 61.8791 54.9114 63.2227 54.2974 64.7013C53.6835 66.18 53.3676 67.7648 53.3678 69.3652V71.2831C53.3678 73.199 52.6047 75.0364 51.2463 76.3911C49.8879 77.7458 48.0456 78.5069 46.1245 78.5069C44.2035 78.5069 42.3611 77.7458 41.0028 76.3911C39.6444 75.0364 38.8813 73.199 38.8813 71.2831V69.3652C38.8813 66.1326 37.592 63.03 35.3031 60.7473L33.3184 58.7716Z" stroke="#EC7979" stroke-width="6.83333" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      </div>
-      <h3 class="feature-card__title">Thoughtful Design</h3>
-      <p class="feature-card__text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-      </p>
-    </div>
+          </div>
+          <h3 class="feature-card__title">Thoughtful Design</h3>
+          <p class="feature-card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+            dolor
+            sit amet lacus accumsan et viverra.
+          </p>
+        </div>
 
-    <div class="feature-card">
-      <div class="feature-card__icon">
-        <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="feature__card">
+          <div class="feature-card__icon">
+            <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M71.5731 23C73.5429 23 75.4319 23.7786 76.8247 25.1645C78.2175 26.5505 79 28.4302 79 30.3902V61.6098C79 63.5698 78.2175 65.4495 76.8247 66.8355C75.4319 68.2214 73.5429 69 71.5731 69H20.4269C19.4515 69 18.4858 68.8088 17.5847 68.4375C16.6837 68.0661 15.8649 67.5217 15.1753 66.8355C14.4856 66.1492 13.9386 65.3345 13.5653 64.4379C13.1921 63.5413 13 62.5803 13 61.6098V30.3902C13 28.4302 13.7825 26.5505 15.1753 25.1645C16.5681 23.7786 18.4571 23 20.4269 23H71.5731ZM71.5731 27.9268H20.4269C19.7703 27.9268 19.1406 28.1863 18.6763 28.6483C18.2121 29.1103 17.9512 29.7369 17.9512 30.3902V61.6098C17.9512 62.9696 19.0603 64.0732 20.4269 64.0732H71.5731C72.2297 64.0732 72.8594 63.8137 73.3237 63.3517C73.7879 62.8897 74.0488 62.2631 74.0488 61.6098V30.3902C74.0488 29.7369 73.7879 29.1103 73.3237 28.6483C72.8594 28.1863 72.2297 27.9268 71.5731 27.9268ZM28.6789 54.2031H63.3376C63.9648 54.2033 64.5686 54.4404 65.0269 54.8665C65.4852 55.2926 65.7639 55.876 65.8067 56.4986C65.8494 57.1213 65.6531 57.737 65.2572 58.2211C64.8614 58.7053 64.2956 59.0219 63.6743 59.107L63.3376 59.13H28.6789C28.0517 59.1298 27.4479 58.8927 26.9896 58.4666C26.5313 58.0405 26.2526 57.4571 26.2098 56.8345C26.1671 56.2118 26.3634 55.5961 26.7593 55.112C27.1551 54.6278 27.7209 54.3112 28.3422 54.2261L28.6789 54.2031ZM60.862 42.7072C61.7374 42.7072 62.577 43.0533 63.196 43.6693C63.815 44.2852 64.1628 45.1207 64.1628 45.9918C64.1628 46.8629 63.815 47.6983 63.196 48.3143C62.577 48.9303 61.7374 49.2763 60.862 49.2763C59.9865 49.2763 59.147 48.9303 58.5279 48.3143C57.9089 47.6983 57.5611 46.8629 57.5611 45.9918C57.5611 45.1207 57.9089 44.2852 58.5279 43.6693C59.147 43.0533 59.9865 42.7072 60.862 42.7072ZM41.0735 42.7072C41.949 42.7072 42.7885 43.0533 43.4076 43.6693C44.0266 44.2852 44.3743 45.1207 44.3743 45.9918C44.3743 46.8629 44.0266 47.6983 43.4076 48.3143C42.7885 48.9303 41.949 49.2763 41.0735 49.2763C40.1981 49.2763 39.3585 48.9303 38.7395 48.3143C38.1205 47.6983 37.7727 46.8629 37.7727 45.9918C37.7727 45.1207 38.1205 44.2852 38.7395 43.6693C39.3585 43.0533 40.1981 42.7072 41.0735 42.7072ZM31.171 42.7072C32.0465 42.7072 32.8861 43.0533 33.5051 43.6693C34.1241 44.2852 34.4719 45.1207 34.4719 45.9918C34.4719 46.8629 34.1241 47.6983 33.5051 48.3143C32.8861 48.9303 32.0465 49.2763 31.171 49.2763C30.2956 49.2763 29.456 48.9303 28.837 48.3143C28.218 47.6983 27.8702 46.8629 27.8702 45.9918C27.8702 45.1207 28.218 44.2852 28.837 43.6693C29.456 43.0533 30.2956 42.7072 31.171 42.7072ZM50.976 42.7072C51.8514 42.7072 52.691 43.0533 53.31 43.6693C53.9291 44.2852 54.2768 45.1207 54.2768 45.9918C54.2768 46.8629 53.9291 47.6983 53.31 48.3143C52.691 48.9303 51.8514 49.2763 50.976 49.2763C50.1006 49.2763 49.261 48.9303 48.642 48.3143C48.0229 47.6983 47.6752 46.8629 47.6752 45.9918C47.6752 45.1207 48.0229 44.2852 48.642 43.6693C49.261 43.0533 50.1006 42.7072 50.976 42.7072ZM26.2033 32.8536C27.0787 32.8536 27.9183 33.1997 28.5373 33.8156C29.1564 34.4316 29.5041 35.2671 29.5041 36.1382C29.5041 37.0093 29.1564 37.8447 28.5373 38.4607C27.9183 39.0767 27.0787 39.4227 26.2033 39.4227C25.3279 39.4227 24.4883 39.0767 23.8693 38.4607C23.2502 37.8447 22.9025 37.0093 22.9025 36.1382C22.9025 35.2671 23.2502 34.4316 23.8693 33.8156C24.4883 33.1997 25.3279 32.8536 26.2033 32.8536ZM36.0893 32.8536C36.9647 32.8536 37.8043 33.1997 38.4233 33.8156C39.0423 34.4316 39.3901 35.2671 39.3901 36.1382C39.3901 37.0093 39.0423 37.8447 38.4233 38.4607C37.8043 39.0767 36.9647 39.4227 36.0893 39.4227C35.2138 39.4227 34.3743 39.0767 33.7552 38.4607C33.1362 37.8447 32.7884 37.0093 32.7884 36.1382C32.7884 35.2671 33.1362 34.4316 33.7552 33.8156C34.3743 33.1997 35.2138 32.8536 36.0893 32.8536ZM45.9917 32.8536C46.8672 32.8536 47.7068 33.1997 48.3258 33.8156C48.9448 34.4316 49.2926 35.2671 49.2926 36.1382C49.2926 37.0093 48.9448 37.8447 48.3258 38.4607C47.7068 39.0767 46.8672 39.4227 45.9917 39.4227C45.1163 39.4227 44.2767 39.0767 43.6577 38.4607C43.0387 37.8447 42.6909 37.0093 42.6909 36.1382C42.6909 35.2671 43.0387 34.4316 43.6577 33.8156C44.2767 33.1997 45.1163 32.8536 45.9917 32.8536ZM55.8942 32.8536C56.7697 32.8536 57.6092 33.1997 58.2283 33.8156C58.8473 34.4316 59.195 35.2671 59.195 36.1382C59.195 37.0093 58.8473 37.8447 58.2283 38.4607C57.6092 39.0767 56.7697 39.4227 55.8942 39.4227C55.0188 39.4227 54.1792 39.0767 53.5602 38.4607C52.9412 37.8447 52.5934 37.0093 52.5934 36.1382C52.5934 35.2671 52.9412 34.4316 53.5602 33.8156C54.1792 33.1997 55.0188 32.8536 55.8942 32.8536ZM65.7967 32.8536C66.6721 32.8536 67.5117 33.1997 68.1307 33.8156C68.7498 34.4316 69.0975 35.2671 69.0975 36.1382C69.0975 37.0093 68.7498 37.8447 68.1307 38.4607C67.5117 39.0767 66.6721 39.4227 65.7967 39.4227C64.9213 39.4227 64.0817 39.0767 63.4627 38.4607C62.8436 37.8447 62.4959 37.0093 62.4959 36.1382C62.4959 35.2671 62.8436 34.4316 63.4627 33.8156C64.0817 33.1997 64.9213 32.8536 65.7967 32.8536Z" fill="#EC7979"/>
 </svg>
 
-      </div>
-      <h3 class="feature-card__title">Thoughtful Design</h3>
-      <p class="feature-card__text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-      </p>
-    </div>
+          </div>
+          <h3 class="feature-card__title">Thoughtful Design</h3>
+          <p class="feature-card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+            dolor
+            sit amet lacus accumsan et viverra.
+          </p>
+        </div>
 
-    <div class="feature-card">
-      <div class="feature-card__icon">
-        <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M36.7308 78.8114C36.2572 78.6078 35.8637 78.2494 35.6123 77.7927C35.3608 77.336 35.2659 76.8071 35.3423 76.2893L39.5542 48.3575H28.3765C28.0221 48.3672 27.6703 48.2939 27.3482 48.1432C27.026 47.9925 26.7422 47.7684 26.5186 47.4882C26.2949 47.2081 26.1375 46.8793 26.0584 46.5274C25.9793 46.1754 25.9806 45.8096 26.0622 45.4583L33.0049 14.8158C33.1271 14.2885 33.4239 13.8201 33.8454 13.4895C34.2669 13.1589 34.7874 12.9864 35.3192 13.0008H58.4615C58.8072 12.9996 59.1488 13.0774 59.4612 13.2283C59.7735 13.3792 60.0488 13.5995 60.2666 13.873C60.4875 14.1495 60.6439 14.4735 60.724 14.8206C60.8042 15.1676 60.806 15.5287 60.7294 15.8765L56.7258 34.2149H67.7184C68.1521 34.214 68.5774 34.3373 68.9456 34.5706C69.3139 34.804 69.6104 35.1381 69.8012 35.5348C69.967 35.9156 70.0308 36.3343 69.9861 36.7484C69.9414 37.1624 69.7898 37.557 69.5466 37.892L39.4616 77.9629C39.2583 78.2699 38.9868 78.5238 38.6692 78.7039C38.3515 78.8841 37.9967 78.9856 37.6334 79C37.3237 78.9941 37.0178 78.9302 36.7308 78.8114ZM50.9402 38.9291L55.5687 17.7151H37.1705L31.2924 43.6433H44.9695L41.2899 67.8744L63.0899 38.9291H50.9402Z" fill="#EC7979"/>
 </svg>
 
+            </div>
+            <h3 class="feature-card__title">Thoughtful Design</h3>
+            <p class="feature-card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida
+              dolor
+              sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+        </div>
       </div>
-      <h3 class="feature-card__title">Thoughtful Design</h3>
-      <p class="feature-card__text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-      </p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="options">
-      <div class="container">
-        <h2 class="options__title">PRICING OPTIONS</h2>
-        <div class="options__line"></div>
-        <p class="options__text">
-          Lorem ipsum dolor sit amet,
-           consectetur adipiscing elit.
-        </p>
+  <section class="options">
+    <div class="container">
+      <h2 class="options__title">PRICING OPTIONS</h2>
+      <div class="options__line"></div>
+      <p class="options__text">
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
+      </p>
+    
+    <div class="options__blocks">
+      <div class="options__block">
+        <p class="options__name">Basic</p>
+        <p class="options__price">$10</p>
+        <p class="options__promotion">Free for life</p>
+        <p class="options__description">1 gb of space</p>
+        <p class="options__description">1 gb of space</p>
+        <p class="options__description">1 gb of space</p>
       </div>
-      <div class="options__blocks">
-        <div class="options__block">
-          <p class="options__name">Basic</p>
-          <p class="options__price">$10</p>
-          <p class="options__promotion">Free for life</p>
-          <p class="options__list">1 gb of space</p>
-          <p class="options__list">1 gb of space</p>
-          <p class="options__list">1 gb of space</p>
-        </div>
-        <div class="options__block">
-          <p class="options__name">Optima</p>
-          <p class="options__price">$20</p>
-          <p class="options__promotion">Free for life</p>
-          <p class="options__list">1 gb of space</p>
-          <p class="options__list">1 gb of space</p>
-          <p class="options__list">1 gb of space</p>
-        </div>
-        <div class="options__block">
-          <p class="options__name">Pro</p>
-          <p class="options__price">$30</p>
-          <p class="options__promotion">Free for life</p>
-          <p class="options__list">1 gb of space</p>
-          <p class="options__list">1 gb of space</p>
-          <p class="options__list">1 gb of space</p>
-        </div>
+
+      <div class="options__block">
+        <p class="options__name">Optima</p>
+        <p class="options__price">$20</p>
+        <p class="options__promotion">Free for life</p>
+        <p class="options__description">1 gb of space</p>
+        <p class="options__description">1 gb of space</p>
+        <p class="options__description">1 gb of space</p>
       </div>
-    </section>
+      <div class="options__block">
+        <p class="options__name">Pro</p>
+        <p class="options__price">$30</p>
+        <p class="options__promotion">Free for life</p>
+        <p class="options__description">1 gb of space</p>
+        <p class="options__description">1 gb of space</p>
+        <p class="options__description">1 gb of space</p>
+      </div>
+    </div>
+    </div>
+  </section>
 
 </body>
+
 </html>
