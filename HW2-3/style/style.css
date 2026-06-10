@@ -86,12 +86,17 @@ margin-bottom: 26px;
    width: 100%;
    margin-right: 7px;
 }
+
+.pricing__item:last-child {
+   margin-right: 0;
+}
 .pricing__option {
    font-family: 'Open Sans', sans-serif;
    font-size: 24px;
    font-weight: 700;
    line-height: 34px;
    font-family: 'Open Sans',sans-serif;
+   
    color: #FFFFFF;
    background-color: #333333;
    padding: 13px 0 ;
