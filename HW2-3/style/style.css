@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   font-family: 'Raleway',sans-serif;
+}
+
+.awesome {
+   background-color: #FFFFFF;
+   padding: 100px 0;
+   text-align: center;
+}
+
+.container {
+   max-width: 1170px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.title {
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   color: rgba(0, 0, 0, 1);
+   text-transform: uppercase;
+   margin-bottom: 40px;
+}
+
+.line {
+   width: 170px;
+   border: none;
+   height: 0px;
+   border-top: 1px solid #EC7979;
+   margin: 0 auto 40px auto;
+}
+.text {
+   font-size: 18px;
+   line-height: 21px;
+   color: #86878B;
+   margin-bottom: 92px;
+   font-weight: 400;
+}
+
+.awesome__item-title {
+font-family: 'Open Sans',sans-serif;
+line-height: 33px;
+color: #000000;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 26px;
+}
+
+.awesome__item-text {
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   color: #000000;
+   line-height: 21px;
+}
+
+.awesome__item {
+   display: inline-block;
+   max-width: 371px;
+}
+
+.awesome__item-icon {
+   margin-bottom: 24px;
+}
+.awesome__items {
+   display: inline-block;
+}
+
+
+
+.pricing {
+   background-color: #F5F5F5;
+   text-align: center;
+   padding: 82px 0;
+}
+
+.pricing__item {
+   display: inline-block;
+   max-width: 370px;
+   width: 100%;
+   margin-right: 7px;
+}
+.pricing__option {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 34px;
+   font-family: 'Open Sans',sans-serif;
+   color: #FFFFFF;
+   background-color: #333333;
+   padding: 13px 0 ;
+   margin-bottom: 2px;
+}
+
+.pricing__cost {
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+color: #FFFFFF;
+font-family: 'Raleway',sans-serif;
+background-color: #333333;
+padding: 29px 0 ;
+margin-bottom: 2px;
+}
+
+.pricing__period {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22px;
+   color: rgba(255, 255, 255, 0.5);
+   font-family: 'Raleway',sans-serif;
+   background-color: #333333;
+   padding: 14px 0 ;   
+   margin-bottom: 2px;
+}
+
+.pricing__list {
+   list-style: none;
+}
+
+.pricing__list li {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22px;
+   font-family: 'Raleway',sans-serif;
+   color: rgba(134, 135, 139, 1);
+   background-color: rgba(255, 255, 255, 1);
+   padding: 14px 0 ;  
+   border-bottom: 2px solid #F5F5F5;
+}
