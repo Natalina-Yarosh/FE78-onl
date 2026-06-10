@@ -36,7 +36,7 @@
     font-weight:400;
     line-height:21px;
     color:rgba(134, 135, 139, 1);
-    margin-top:40px;
+    margin-bottom:92px;
     
 }
 
@@ -44,12 +44,13 @@
     width:170px;
     margin:0 auto;
     border:1px solid rgba(236, 121, 121, 1);
+    margin-bottom:40px;
     
 
 }
 
 .block__items{
-    margin-top:92px;
+    
     display:flex;
     justify-content: space-between;
     gap:27px;
@@ -112,13 +113,11 @@
     line-height: 21px;
     font-weight:400;
     color:rgba(134, 135, 139, 1);
-    margin-top:40px;
+    margin-bottom:79px;
+   
 }
 
-.pricing__items{
-    margin-top:79px;
-    
-}
+
 
 .pricing__item{
     max-width:370px;
@@ -177,22 +176,4 @@
     background-color:rgba(255, 255, 255, 1);
 }
 
-.block-table{
-    padding:50px 0;
-}
-table{
-   margin:auto;
-    max-width:450px;
-    width:100%;
-    border-collapse: collapse;
-}
-
-thead{
-    text-align: left;
-}
-
-td{
-    border: 1px solid black;
-    padding:5px 0;
-}
 
