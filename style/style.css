@@ -80,7 +80,7 @@ body{
     display: inline-block;
     max-width: 370.49px;
     width: 100%;
-    list-style-type: none;    
+    list-style: none;    
 }
 .pricing__col-subtitle{
     background-color: #333333;
