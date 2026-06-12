@@ -7,6 +7,81 @@ body {
    font-family: 'Raleway',sans-serif;
 }
 
+a {
+   text-decoration: none;
+}
+
+ .header {
+background-color: rgba(0, 0, 0, 1);
+padding: 22px 0;
+ }
+
+ .header__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+   .nav__list {
+   display: flex;
+   column-gap: 40px;
+   list-style-type: none;
+   }
+   
+.nav__link {
+   font-family: 'Open sans', sans-serif;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 19px;
+}
+
+.platforms {
+   background-color: #F5F5F5;
+   padding: 20px 0;
+}
+
+.platforms__container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.platforms__description {
+   max-width: 470px;
+}
+
+.platforms__title {
+     font-family: 'Open sans', sans-serif;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 33px;
+     color: #333333; 
+     margin-bottom: 14px;
+     margin-top: 12px;
+}
+
+.platforms__text {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21px;
+   color: #333333;
+}
+
+.platforms__list {
+   display: flex;
+   column-gap: 30px;
+   justify-content: space-between;
+}
+
+.platforms__link {
+   width: 70px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .awesome {
    background-color: #FFFFFF;
    padding: 100px 0;
@@ -14,7 +89,7 @@ body {
 }
 
 .container {
-   max-width: 1170px;
+   max-width: 1200px;
    width: 100%;
    margin: 0 auto;
    padding: 0 15px;
@@ -139,3 +214,31 @@ margin-bottom: 2px;
    padding: 14px 0 ;  
    border-bottom: 2px solid #F5F5F5;
 }
+.footer {
+   background-color: #000000;
+   padding: 27px 0;
+   text-align: center; 
+}
+
+.footer__social {
+   display: flex;
+   justify-content: center;
+   column-gap: 33px;
+   margin-bottom: 28px;
+}
+
+.footer__link {
+   width: 53px;
+   height: 53px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer__content {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21px;
+   color: rgba(217, 217, 217, 0.5);
+}
+
