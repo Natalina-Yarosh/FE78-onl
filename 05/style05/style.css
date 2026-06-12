@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color:#000000 ;
+    padding: 0 15px;
+}
+.container{
+    margin:  0 auto;
+    max-width: 570px;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    margin-bottom: 27px ;
+}
+
+.link{
+    width: 53px;
+    height: 53px;
+}
+.footer__text{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+    color: #D9D9D980;
+    opacity: 50%;
+    
+}
