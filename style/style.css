@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  align-items: center;
 
 }
 
@@ -11,6 +10,9 @@ body{
   color: #333;
 }
 
+section{
+  text-align: center;
+}
 
 
 .features {
@@ -23,24 +25,24 @@ body{
 
 .container{
   max-width: 1200px;
-  max-height: auto;
 margin: 0 auto;
 padding: 0 15px;
-text-align: center;
 
 }
 
 
 .features__title {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 0px auto;
   text-transform: uppercase;
+  margin-bottom: 40px;
+  
 }
 
 .features__line {
 
   max-width: 170px;
-  border: 2px solid #EC7979;
+  border: 1px solid #EC7979;
   margin: 0 auto 40px;
 }
 
@@ -101,28 +103,21 @@ margin-bottom: 40px;
 .options {
   background-color: #F5F5F5;
   padding: 120px 0 15px;
-  text-align: center;
-  align-items: center;
 }
 
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .options__title {
   font-weight: 400;
   font-size: 36px;
   color: #000;
   font-family: 'Raleway', sans-serif ;
+  margin-bottom: 40px;
 }
 
 .options__text {
   font-size: 18px;
   line-height: 21px;
   color: #86878B;
-  /* max-width: 1170px; */
   margin-bottom: 79px;
 }
 
@@ -135,9 +130,7 @@ margin-bottom: 40px;
 .options__block {
   display: inline-block;
   margin-right: 20px;
-  font-family: 'Open Sans', sans-serif;
   max-width: 370.49px;
-  /* max-height: 510px; */
   width: 100%;
 }
 
@@ -151,8 +144,9 @@ margin-bottom: 40px;
   color: #fff;
   background-color: #333333;
   margin-bottom: 2px;
-  padding: 10px 10px 14px;
+  padding: 12px 10px 14px;
   font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .options__price {
@@ -172,7 +166,7 @@ margin-bottom: 40px;
   background-color: #333333;
   margin-bottom: 2px;
   font-weight: 400;
-  padding: 10px 10px 10px;
+  padding: 14px 10px 14px;
 
 }
 
