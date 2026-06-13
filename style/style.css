@@ -7,102 +7,115 @@
 
 body{
   font-family: 'Raleway', sans-serif;
+  color: #333;
 }
+
+section{
+  text-align: center;
+}
+
 
 .features {
-  max-width: 1170px; 
-  margin: 0 auto;
-  padding: 40px 20px;
-  text-align: center;
-  font-family: sans-serif;
+   max-height: auto;
+   padding: 100px 0;
+   text-align: center;
 }
 
-.features__title {
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+.container{
+  max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+
 }
+
+
+.features__title {
+  line-height: 42px;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: 400;
+  
+}
+
 
 .features__line {
 
   max-width: 170px;
-  border: 2px solid #EC7979;
+  border: 1px solid #EC7979;
   margin: 0 auto 40px;
 }
 
 .features__subtitle {
   color: #777;
   font-size: 14px;
-  margin-bottom: 50px;
+  margin-bottom: 92px;
 }
 
-.features__container {
-  display: flex;
-  flex-direction: column; 
-   flex-direction: row; 
+.h2 {
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-transform: uppercase;
+margin-bottom: 40px;
 }
 
-.feature-card {
+.p{
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+
+.feature__cards {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 20px;
-  flex: 1; 
+  max-width: 371px;
+  max-height: 259px;
 }
 
-.feature-card__icon {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.feature__card {
+  max-width: 370px;
 }
+
 
 .feature-card__title {
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 33px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 26px;
+  font-family: 'Open sans', sans-serif;
 }
 
 .feature-card__text {
-  font-size: 14px;
+  font-size: 18px;
   color: #555;
-  line-height: 1.5;
-  max-width: 350px;
+  line-height: 21px;
 }
 
 
 
-body {
-    font-family: releway, sans-serif;
-    overflow: hidden;
-}
 
 .options {
   background-color: #F5F5F5;
-  padding: 120px 0 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 82px 0 83px;
 }
+
 
 .options__title {
   font-weight: 400;
-  font-size: 48px;
-  line-height: 100%;
+  font-size: 36px;
   color: #000;
-  text-transform: capitalize;
-  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif ;
+  margin-bottom: 40px;
+  line-height: 42px;
 }
 
 .options__text {
   font-size: 18px;
   line-height: 21px;
   color: #86878B;
-  max-width: 1170px;
-  margin-bottom: 40px;
+  margin-bottom: 79px;
 }
 
 .options__line {
@@ -113,10 +126,9 @@ body {
 
 .options__block {
   display: inline-block;
-  margin-right: 72px;
-  font-family: 'Open Sans', sans-serif;
+  margin-right: 20px;
   max-width: 370.49px;
-  max-height: 510px;
+  width: 100%;
 }
 
 .options__block:last-child {
@@ -125,35 +137,56 @@ body {
 
 .options__name {
   font-size: 24px;
-  line-height: 100% 34px;
+  line-height:34px;
   color: #fff;
   background-color: #333333;
   margin-bottom: 2px;
-  width: 370.49px;
-  padding: 0 10px;
+  padding: 12px 10px 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .options__price {
-  font-size: 24px;
-  line-height: 100% 34px;
+  font-size: 36px;
+  line-height: 42px;
   color: #fff;
   background-color: #333333;
   margin-bottom: 2px;
-  width: 370.49px;
+  font-weight: 700;
+  padding: 29px 10px 29px;
 }
 
 .options__promotion {
-  font-size: 24px;
-  line-height: 100% 34px;
-  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  color: #86878B;
   background-color: #333333;
   margin-bottom: 2px;
-  width: 370.49px;
+  font-weight: 400;
+  padding: 14px 10px 14px;
 
 }
 
-.options__list{
+.options__description{
+  font-size: 18px;
+  line-height: 22px;
+  padding: 14px 10px;
+  margin-bottom: 2px;
   background-color: #FFFFFF;
 color:#86878B;
 font-family: 'Raleway', sans-serif;
 }
+
+
+/* .container__header{
+   background-color: #000000;
+   max-width: 1510px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header__logo{
+ font-weight: 87px;
+ font-size: 31px;
+ 
+} */
