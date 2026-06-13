@@ -1,0 +1,26 @@
+.header {
+   background-color: #000000;
+   padding: 22px 0;
+}
+
+.header__container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
+.nav__list {
+   display: flex;
+   column-gap: 30px;
+   list-style-type: none;
+}
+
+.nav__link {
+   color: #FFFFFF;
+   font-family: "Open Sans", sans-serif;
+   font-size: 14px;
+   line-height: 19px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
