@@ -29,6 +29,7 @@ a{
     justify-content: space-between;
     column-gap:30px;
     list-style: none;
+    flex-wrap:wrap;
     
     
 }
@@ -269,12 +270,12 @@ a{
     background-color: rgba(0, 0, 0, 1);
 }
 
-.footer-container{
+.footer__wrapper{
     display:flex;
     justify-content: center;
     column-gap: 32px;
     margin-bottom:27px;
-    
+    flex-wrap:wrap;
 }
 
 .footer__socials{
@@ -283,7 +284,7 @@ a{
     display:flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 1;
+    
 }
 
 
