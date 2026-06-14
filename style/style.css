@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+.awesome-section{
+    padding: 100px 0;
+    text-align: center;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.features{
+  display: inline-block;
+    max-width: 371px;
+    width: 100%;
+}
+.product__title{
+        font-size: 36px;
+        color: #000;
+        line-height: 42px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+}
+.head__line{
+    width: 170px;
+    height: 1px; 
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px auto;
+}
+.head__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-bottom: 92px;
+}
+.features__title{
+    font-size: 24px;
+    line-height: 33px;
+    color: #000;
+    margin-bottom: 26px;
+    font-family: "Open Sans", sans-serif;
+}
+.icon-wrapper{
+    display: inline-block;
+    max-width: 371px;
+    width: 100%;
+}
+.icon-wrapper3{
+    display: inline-block;
+    max-width: 371px;
+    width: 100%;
+}
+
+
+
+
+
+
+.pricing-section{
+    padding: 82px 0;
+    text-align: center;
+}
+.pricing{
+    max-width: 371px
+}
+.head2__line {
+    width: 170px;
+    height: 1px;
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px auto;
+}
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #F5F5F5;
+}
+.pricing__title{
+    font-size: 36px;
+        color: #000;
+        line-height: 42px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        text-align: center;
+}
+.pricing__text{
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        color: #86878B;
+        margin-bottom: 79px;
+    }
+    .options__title{
+        font-family: "Open Sans", sans-serif;
+       font-size: 24px;
+       line-height: 34px;
+       font-weight: 700;
+       color: #FFFFFF;
+       text-align: center;
+       background-color: #333;
+    margin-bottom: 2px ;
+    }
+.options__price{
+    color: #FFFFFF;
+        text-align: center;
+        background-color: #333;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 700;
+        margin-bottom: 2px
+}
+.options__text{
+    color: #FFFFFF80;
+        text-align: center;
+        background-color: #333;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2px
+}
+.options__size{
+    color: #86878B;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+        background-color: #fff;
+}
+.Basic{
+    display: inline-block;
+    max-width: 371px;
+    width: 100%;
+}
+.Optima{
+display: inline-block;
+    max-width: 371px;
+    width: 100%;
+}
+.Pro{
+display: inline-block;
+    max-width: 371px;
+    width: 100%;
+}
+
+
+
