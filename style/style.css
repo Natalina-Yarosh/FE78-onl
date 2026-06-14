@@ -44,6 +44,7 @@ a {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
+    font-weight: 700;
     color: #FFFFFF;
 }
 /*  */
@@ -58,6 +59,7 @@ a {
 .social__container {
     display: flex;
     column-gap: 30px;
+    align-items: center;
 }
 
 .social__info {
@@ -75,14 +77,12 @@ a {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
-    padding-top: 14px;
+    margin-top: 14px;
     color: #333333;
     opacity: 0.4;
 }
 
-.icons {}
-
-.icons__container {
+.social__wrapper-icon {
     display: flex;
     column-gap: 30px;
 }
@@ -254,8 +254,7 @@ a {
 /*  */
 .footer {
     background-color: #000000;
-    padding: 35px 0 0;
-    align-items: center;
+    padding: 35px 0 27px;
     justify-content: center;
 }
 
@@ -264,6 +263,7 @@ a {
     align-items: center;
     column-gap: 33px;
     justify-content: center;
+    margin-bottom: 27px;
 }
 
 .footer__icon{
@@ -275,7 +275,6 @@ a {
 }
 
 .footer__info {
-    padding: 27px 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
