@@ -6,6 +6,96 @@
     
 }
 
+a{
+    text-decoration: none;
+    
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 1);
+    padding:22px 0;
+}
+
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header__list{
+    display:flex;
+    justify-content: space-between;
+    column-gap:30px;
+    list-style: none;
+    flex-wrap:wrap;
+    
+    
+}
+
+.header__link{
+    font-size:14px;
+    line-height: 19px;
+    font-weight:700;
+    color:rgba(255, 255, 255, 1);
+    font-family: "Open Sans", sans-serif;
+}
+
+.socials{
+    padding:32px 0 20px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.socials__container{
+    display:flex;
+    justify-content: space-between;
+    column-gap:30px;
+}
+
+.socials__info{
+    max-width:470px;
+    width:100%;
+}
+
+.socials__title{
+    font-size:24px;
+    line-height: 33px;
+    font-weight:700;
+    color:rgba(51, 51, 51, 1);
+    margin-bottom:14px;
+}
+
+.socials__text{
+    font-size:18px;
+    line-height: 21px;
+    font-weight: 400;
+    color:rgba(51, 51, 51, 1);
+}
+
+.socials__media{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width:700px;
+    width:100%; 
+    
+}
+
+.socials__link{
+    display:flex;
+    width:70px;
+    height:70px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
 
 .block{
     text-align: center;
@@ -60,9 +150,7 @@
 .block__item{
     
     max-width:371px;
-    /* display:flex;
-    flex-direction: column;
-    align-items:center */
+    
     
 }
 
@@ -117,19 +205,18 @@
    
 }
 
-
+.pricing__items{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
 
 .pricing__item{
     max-width:370px;
     width:100%;
-    display: inline-block;
-    margin-right:25px;
-    
+      
 }
 
-.pricing__item:last-child{
-    margin-right:0;
-}
 
 .pricing__level{
     font-size:24px;
@@ -176,4 +263,34 @@
     background-color:rgba(255, 255, 255, 1);
 }
 
+.footer{
+    padding:35px 0 27px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.footer__wrapper{
+    display:flex;
+    justify-content: center;
+    column-gap: 32px;
+    margin-bottom:27px;
+    flex-wrap:wrap;
+}
+
+.footer__socials{
+    width:53px;
+    height:53px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.footer__copyright{
+    color:rgba(217, 217, 217, 0.5);
+    text-align: center;
+    font-size:18px;
+    font-weight:400;
+    line-height: 21px;
+}
 
