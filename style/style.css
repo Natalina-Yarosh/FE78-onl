@@ -263,6 +263,116 @@ a{
     background-color:rgba(255, 255, 255, 1);
 }
 
+
+.customers{
+    padding:127px 0;
+    text-align: center;
+}
+
+.customers__title{
+    font-size:36px;
+    line-height:42px;
+    font-weight:400;
+    text-transform: uppercase;
+    margin-bottom:80px;
+    position: relative;
+}
+
+.customers__title::after{
+    content:'';
+    display: inline-block;
+    width:170px;
+    height:1px;
+    background-color: rgba(236, 121, 121, 1);
+    position: absolute;
+    bottom:-40px;
+    left:calc(50% - 85px);
+}
+
+.customers__text{
+    font-size:18px;
+    line-height: 21px;
+    font-weight:400;
+    color:rgba(134, 135, 139, 1);
+    margin-bottom:83px;
+}
+
+.customers__items{
+    display:flex;
+    justify-content: space-between;
+    column-gap:29px;
+    
+    
+}
+
+.customers__item{
+    max-width:370px;
+    width:100%;
+    
+}
+
+
+.customer__message{
+    background-color: rgba(226, 226, 226, 1);
+    color:rgba(134, 135, 139, 1);
+    border-radius:10px;
+    font-size:18px;
+    line-height:21px;
+    font-weight:400;
+    padding:36px 24px;
+    margin-bottom:66px;
+    position:relative;
+}
+
+.customer__message::after{
+    content:'';
+    position:absolute;
+    display:inline-block;
+    top:100%;
+    left:25%;
+    border: 20px solid transparent; 
+    border-top: 20px solid rgba(226, 226, 226, 1);
+}
+
+.customer__info{
+    display:flex;
+    justify-content: space-between;
+    gap: 29px;
+    align-items: center;
+}
+
+.customer__logo{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    object-fit:cover;
+    
+}
+
+.customer__details{
+    max-width:268px;
+    width:100%;
+    text-align: left;
+}
+
+.customer__name{
+    font-size:24px;
+    line-height: 30px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 1);
+    font-family: "Open Sans", sans-serif;
+    margin-bottom:18px;
+}
+
+.customer__position{
+    font-size:18px;
+    line-height: 21px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 1);
+    
+}
+
+
 .footer{
     padding:35px 0 27px;
     background-color: rgba(0, 0, 0, 1);
