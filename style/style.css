@@ -350,8 +350,7 @@ a{
 }
 
 .customer__details{
-    max-width:268px;
-    width:100%;
+    flex-grow:1;
     text-align: left;
 }
 
