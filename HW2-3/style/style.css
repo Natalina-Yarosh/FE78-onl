@@ -38,7 +38,7 @@ padding: 22px 0;
 
 .platforms {
    background-color: #F5F5F5;
-   padding: 20px 0;
+   padding: 32px 0 20px;
 }
 
 .platforms__container{
@@ -58,7 +58,6 @@ padding: 22px 0;
      line-height: 33px;
      color: #333333; 
      margin-bottom: 14px;
-     margin-top: 12px;
 }
 
 .platforms__text {
