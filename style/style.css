@@ -159,5 +159,72 @@ body {
    border: 2px solid #F5F5F5;
 }
 
+
+.customers {
+   padding: 127.5px 0;
+}
+
+.customers__items {
+   margin-top: 83px;
+   display: flex;
+   justify-content: space-between;
+   column-gap: 30px;
+}
+
+.customers__item {
+   max-width: 370px;
+   width: 100%;
+}
+
+.customers__text {
+   background-color: #E2E2E2;
+   color: #86878B;
+   font-size: 18px;
+   line-height: 21px;
+   padding: 38px 25px 37px;
+   text-align: center;
+   margin-bottom: 66px;
+   position: relative;
+   border-radius: 10px;
+}
+
+.customers__text::after {
+   content: '';
+   border-left: 14.5px solid transparent;
+   border-right: 14.5px solid transparent;
+   border-top: 20px solid #E2E2E2;
+   position: absolute;
+   top: 100%;
+   left: 70px;
+}
+
+.customers__customer {
+   display: flex;
+   column-gap: 30px;
+}
+
+.customers__photo {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+}
+
+.customers__data {
+   flex-grow: 1;
+}
+
+.customers__name {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   margin-bottom: 18px;
+}
+
+.customers__post {
+   font-size: 18px;
+   line-height: 21px;
+}
+
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Open Sans", sans-serif; */
