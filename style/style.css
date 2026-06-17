@@ -209,6 +209,10 @@ body {
    border-radius: 50%;
 }
 
+.customers__data {
+   flex-grow: 1;
+}
+
 .customers__name {
    font-family: "Open Sans", sans-serif;
    font-weight: 700;
