@@ -264,12 +264,14 @@ ul {
 }
 
 .feedback__text {
+    background-color: #E2E2E2;
+    border-radius: 10px;
     text-align: center;
     padding: 38px 0 37px;
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
-    color: #86878B
+    color: #86878B;
 }
 
 .feedback__customer {
