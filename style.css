@@ -243,3 +243,52 @@ ul {
     text-align: center;
     margin-top: 24px;
 }
+
+.feedback__section {
+    padding: 127.5px 0;
+    background-color: #FFFFFF;
+}
+
+.feedback__header {
+    text-align: center;
+}
+
+.feedback__items {
+    display: flex;
+    column-gap: 29.97px;
+}
+
+.feedback__item {
+    margin-top: 83px;
+    width: 369.68px;
+}
+
+.feedback__text {
+    text-align: center;
+    padding: 38px 0 37px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #86878B
+}
+
+.feedback__customer {
+    display: flex;
+    column-gap: 29.97px;
+    margin-top: 46px;
+}
+
+.feedback__wrapper-icon {
+    
+}
+
+.feedback__img {
+    width: 69.94px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.feedback__name {
+    margin-bottom: 18px;
+}
+
