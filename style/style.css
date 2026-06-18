@@ -125,9 +125,10 @@ a {
     background-color: #EC7979;
 
     position: absolute;
-    top: 100%;
+    /* top: 100%; */
+    bottom: -40px;
     left: calc(50% - 85px);
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .header__separator {
@@ -276,8 +277,9 @@ a {
 }
 
 .feedback__item {
-    max-width: 370px;
-    max-height: 316px;
+    /* max-width: 370px; */
+    /* max-height: 316px; */
+    flex-basis: 370px;
 }
 
 .feedback__text {
@@ -315,6 +317,7 @@ a {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .feedback_contact-info {
@@ -330,7 +333,7 @@ a {
     font-weight: 700;
 }
 
-.feedback__contact-job-title {
+.feedback__contact-job {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
