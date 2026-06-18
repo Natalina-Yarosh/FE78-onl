@@ -331,4 +331,55 @@ footer{
    opacity: 50%;
    text-align: center;
     
+}.download{
+    text-align: center;
+    padding: 70px 170px;
+    background-image: url(../img/download__background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.download::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.download__container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+} 
+
+.download__title{
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.download__text{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.download__link{
+    display: inline-block;
+    line-height: 28px;
+    font-size: 24px;
+    color: #FFFFFF;
+    border: 4px #FFFFFF solid;
+    padding: 20px 100px;
 }
