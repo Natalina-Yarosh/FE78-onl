@@ -68,6 +68,11 @@ body{
     width: 70px;
     height: 70px;
 }
+
+.social__link:hover{
+    transform: scale(2);
+}
+
 .preview{
     padding: 100px 170px;
 }
@@ -284,6 +289,7 @@ line-height: 21px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
+
 }
 .commentor__title{
     font-family: "Open Sans", sans-serif;
@@ -323,6 +329,11 @@ footer{
     width: 53px;
     height: 53px;
 }
+
+.footer__link:hover{
+    transform: scale(2);
+}
+
 .footer__text{
    font-weight: 400;
    font-size: 18px;
@@ -382,4 +393,8 @@ footer{
     color: #FFFFFF;
     border: 4px #FFFFFF solid;
     padding: 20px 100px;
+}
+
+.download__link:hover {
+    box-shadow: 0px 15px 30px whitesmoke;
 }
