@@ -50,6 +50,80 @@ a {
 
 
 /*  */
+.banner {
+    padding: 306px 0 250px;
+    text-align: left;
+    background-image: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.banner::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner__container {
+    position: relative;
+
+}
+
+.banner__title {
+    margin: 73px 0 80px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex-basis: 734px;
+
+    position: relative;
+}
+
+.banner__title::after {
+    content: '';
+    display: inline-block;
+    width: 170px;
+    height: 2px;
+    background-color: #FFFFFF;
+
+    position: absolute;
+    /* top: 100%; */
+    bottom: -40px;
+    left: 0;
+    /* left: calc(50% - 85px); */
+}
+
+.banner__text {
+    margin: 0 auto 50px;
+    color: #FFFFFF;
+}
+
+.button__download {
+    width: 270px;
+    height: 58px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+/*  */
 .social {
     background-color: #F5F5F5;
     padding: 32px 0 20px;
@@ -105,6 +179,8 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+
+    position: relative;
 }
 
 .header__title {
@@ -277,8 +353,6 @@ a {
 }
 
 .feedback__item {
-    /* max-width: 370px; */
-    /* max-height: 316px; */
     flex-basis: 370px;
 }
 
@@ -337,6 +411,51 @@ a {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+}
+
+
+/*  */
+.design {
+    padding: 70px 0;
+    text-align: center;
+    background-image: url(../assets/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.design::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.design__title {
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.design__text {
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.button__download-large {
+    width: 370px;
 }
 
 
