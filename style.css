@@ -105,19 +105,25 @@ ul {
     color: #000000;
 }
 
-.title{
+.title {
     font-size: 36px;
     line-height: 42px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+
+    position: relative;
 }
 
-.line {
+.title::after {
+    content: '';
     display: inline-block;
     width: 170px;
     border: 1px solid #EC7979;
-    
+
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 85px);
 }
 
 .text {
@@ -236,11 +242,6 @@ ul {
     flex-basis: 370px;
 }
 
-.feedback__item::after {
-    content: '';
-    width: ;
-}
-
 .feedback__text {
     background-color: #E2E2E2;
     border-radius: 10px;
@@ -250,7 +251,20 @@ ul {
     line-height: 21px;
     font-weight: 400;
     color: #86878B;
-    margin-bottom: 46px;
+    margin-bottom: 66px;
+    
+    position: relative;
+}
+
+.feedback__text::after {
+    content: '';
+    display: inline-block;
+    border: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    
+    position: absolute;
+    top: 100%;
+    left: 70px;
 }
 
 .feedback__customer {
