@@ -226,5 +226,78 @@ body {
    line-height: 21px;
 }
 
+.banner {
+   padding: 306px 0 250px;
+   background-image: url(../src/banner.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.banner::before {
+   content: '';
+   display: block;
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.banner__container {
+   position: relative;
+}
+
+.banner__logo {
+   margin-bottom: 73px;
+}
+
+.banner__title {
+   margin-bottom: 80px;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 56px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   max-width: 734.5px;
+   width: 100%;
+   position: relative;
+}
+
+.banner__title::after {
+   content: '';
+   display: block;
+   width: 170px;
+   border: 1px solid #FFFFFF;
+   position: absolute;
+   bottom: -40px;
+}
+
+.banner__description {
+   margin-bottom: 50px;
+   font-size: 18px;
+   line-height: 21px;
+   color: #FFFFFF;
+   max-width: 270px;
+   width: 100%;
+}
+
+.banner__link {
+   display: inline-block;
+   text-align: center;
+   text-transform: capitalize;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 21px;
+   text-decoration: none;
+   color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   padding: 17px 10px;
+   min-width: 270px;
+}
+
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Open Sans", sans-serif; */
