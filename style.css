@@ -282,6 +282,8 @@ ul {
 .feedback__img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .feedback__customer-info {
