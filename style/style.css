@@ -305,11 +305,9 @@ a {
 .customers {
   background-color: #FFFFFF;
   padding: 122px;
-  border: 1px solid red;
 }
 
 .customers__container {
-  border: 1px solid black;
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
@@ -323,6 +321,20 @@ a {
   padding: 0 15px;
   text-align: center;
   color: #000000;
+  text-transform: uppercase;
+  position: relative;
+
+  
+}
+
+.customers__title::after{
+content: '';
+display: block;
+width: 170px;
+border: 1px solid #EC7979;
+position: absolute;
+bottom: -40px;
+left: calc(50% - 85px);
 }
 
 .customers__subtitle {
@@ -336,17 +348,18 @@ a {
 .customers__cards {
   display: flex;
   column-gap: 30px;
-  margin: 184px;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.customer__card {
-  /* display: inline-block;
-  justify-content: space-between; */
+.customer__text-block {
   background-color: #E2E2E2;
-  /* column-gap: 30px; */
   border-radius: 10px;
   padding: 38px 24px 38px;
   text-align: center;
+   margin-bottom: 66px;
+   position: relative;
+   
 }
 
 .customer__text{
@@ -356,9 +369,201 @@ a {
   font-family: 'Raleway', sans-serif;
 }
 
-/* .customer__avatar{
+.customer__avatar{
   width: 70px;
   height: 70px;
   border-radius: 50%;
-} */
+  object-fit: cover;
+}
 
+.customer__author{
+     display: flex;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: 127px;
+}
+
+.customer__text-block::after {
+    content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-10%); 
+  border-width: 12px 10px 0 10px;
+  border-style: solid;
+  border-color: #E2E2E2 transparent transparent transparent;
+}
+
+
+
+.customer__meta{
+      margin: 0 40px 30px;
+}
+
+.customer__name{
+      font-size: 23px;
+    line-height: 30px;
+}
+
+.customer__role{
+  font-size: 18px;
+  list-style: 21px;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner{
+  padding: 306px 170px 250px;
+  background-image: url(../assets/cyti.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.banner::before{
+  content: '';
+  display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+left: 0;
+top: 0;
+}
+
+.banner__container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.banner__logo{
+  display: inline-block;
+  margin-bottom: 73px;
+}
+
+
+.banner__title{
+  font-size: 48px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 734px;
+
+  position: relative;
+}
+
+.banner__title::after{
+  content: '';
+  display: block;
+width: 170px;
+border: 1px solid #FFFFFF;
+position: absolute;
+bottom: -40px;
+left: calc(50% - 0);
+}
+
+.banner__subtitle{
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  width: 270px;
+}
+
+.banner__link{
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+text-decoration: none;
+border: 2px solid #FFFFFF;
+padding: 17px 90px;
+min-width: 270px;
+
+}
+
+
+
+.design{
+  padding: 70px 167px;
+  background-image: url(../assets/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.design::before{
+  content: '';
+  display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5);
+left: 0;
+top: 0;
+}
+
+.design__container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+
+
+ 
+  text-align: center;
+  align-items: center;
+}
+
+
+
+.design__title{
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.design__subtitle{
+  font-size: 18px;
+  margin-bottom: 80px;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.design__link{
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+text-decoration: none;
+border: 2px solid #FFFFFF;
+padding: 15px 140px;
+min-width: 370px;
+
+}
