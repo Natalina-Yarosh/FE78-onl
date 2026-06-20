@@ -72,7 +72,7 @@ ul {
     left: 0;
 }
 
-.main_container {
+.main__container {
     padding: 306px 0 250px;
     color: #FFFFFF;
 
@@ -89,6 +89,10 @@ ul {
     line-height: 100%;
     font-weight: 500;
     max-width: 734.5px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+
+    position: relative;
 }
 
 .main__title::after {
@@ -104,6 +108,9 @@ ul {
 
 .main__text {
     color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
     max-width: 270px;
     margin-bottom: 50px;
 }
