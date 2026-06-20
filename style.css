@@ -49,6 +49,7 @@ ul {
 
 
 .main {
+    padding: 306px 0 250px;
     background-image: url(image/image-main.webp);
 }
 
@@ -73,9 +74,6 @@ ul {
 }
 
 .main__container {
-    padding: 306px 0 250px;
-    color: #FFFFFF;
-
     position: relative;
 }
 
@@ -91,6 +89,7 @@ ul {
     max-width: 734.5px;
     text-transform: uppercase;
     margin-bottom: 80px;
+    color: #FFFFFF;
 
     position: relative;
 }
@@ -120,8 +119,8 @@ ul {
     font-size: 18px;
     line-height: 100%;
     font-weight: 600;
-    width: 270px;
-    height: 58px;
+    min-width: 270px;
+    padding: 18px;
     border: 2px solid #FFFFFF;
     background-color: transparent;
 }
@@ -386,23 +385,25 @@ ul {
 
 .stylish {
     background-image: url(image/image-stylish.webp);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
 }
 
 .stylish__container {
-    padding: 70px 0;
     text-align: center;
-    color: #FFFFFF;
 
     position: relative;
 }
 
 .stylish__title {
+    color: #FFFFFF;
     line-height: 100%;
 }
 
 .stylish__text {
     color: #FFFFFF;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .stylish__title::after {
@@ -410,7 +411,7 @@ ul {
 }
 
 .stylish__button {
-    width: 370px;
+    min-width: 370px;
 }
 
 
