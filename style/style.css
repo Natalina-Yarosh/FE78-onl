@@ -123,8 +123,8 @@ a{
     display:inline-block;
     font-family: "Open Sans", sans-serif;
     color:rgba(255, 255, 255, 1);
-    padding: 15px 90px;
-    max-width:270px;
+    padding: 15px;
+    min-width:270px;
 }
 
 .socials{
@@ -480,8 +480,8 @@ a{
 
 
 .banner__link_stylish{
-    max-width:370px;
-    padding:15px 141px;
+    min-width:370px;
+    padding:15px;
 }
 
 
