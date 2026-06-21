@@ -207,6 +207,7 @@ body {
    width: 70px;
    height: 70px;
    border-radius: 50%;
+   object-fit: cover;
 }
 
 .customers__data {
@@ -276,6 +277,7 @@ body {
    border: 1px solid #FFFFFF;
    position: absolute;
    bottom: -40px;
+   left: 0;
 }
 
 .banner__description {
