@@ -11,40 +11,35 @@ body {
   text-align: center;
   margin-bottom: 100px;
 }
-.awesome__container {
+.container {
   max-width: 1200px;
-  height: 702px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
 .awesome__title {
   font-weight: 400;
-  padding-top: 100px;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   color: #000000;
+  margin-bottom: 40px;
 }
 .awesome__line {
   width: 170px;
   height: 1px;
   background-color: #ec7979;
-  margin: 40px auto 40px;
+  margin: 0 auto 40px;
 }
 .awesome__description {
-  width: 500px;
-  margin: 0 auto;
   color: #86878b;
   margin-bottom: 92px;
-}
-.awesome__cards {
-  display: inline-block;
+  font-size: 18px;
+  line-height: 21px;
 }
 .awesome__card {
   display: inline-block;
   width: 371px;
-  height: 263px;
   margin-right: 10px;
 }
 .awesome__card:last-child {
@@ -65,7 +60,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 0;
   text-align: center;
 }
 .pricing {
@@ -73,22 +67,17 @@ body {
   padding: 100px 0 50px;
   text-align: center;
 }
-.pricing__container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .pricing__title {
   font-size: 36px;
   line-height: 42px;
   font-weight: 400;
   color: #000000;
+  margin-bottom: 40px;
 }
 .pricing__line {
   width: 170px;
   height: 1px;
-  margin: 50px auto 40px;
+  margin: 0 auto 40px;
   background-color: #ec7979;
 }
 .pricing__description {
@@ -97,15 +86,11 @@ body {
   line-height: 21px;
   color: #86878b;
 }
-.pricing__cards {
-  font-size: 0;
-}
 .pricing__card {
   display: inline-block;
-  width: 370px;
-  margin-right: 30px;
-  vertical-align: top;
-  font-size: 18px;
+  width: 100%;
+  max-width: 370px;
+  margin-right: 20px;
 }
 .pricing__card:last-child {
   margin-right: 0;
@@ -115,8 +100,7 @@ body {
   border-bottom: 2px solid #f5f5f5;
 }
 .pricing__card-name {
-  height: 60px;
-  padding-top: 13px;
+  padding: 13px 10px;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 33px;
@@ -124,8 +108,7 @@ body {
   color: #ffffff;
 }
 .pricing__card-price {
-  height: 100px;
-  padding-top: 26px;
+  padding: 28px 10px;
   font-family: "Raleway", sans-serif;
   font-size: 36px;
   line-height: 42px;
@@ -133,8 +116,7 @@ body {
   color: #ffffff;
 }
 .pricing__card-note {
-  height: 50px;
-  padding-top: 14px;
+  padding: 14px 10px;
   font-size: 18px;
   line-height: 21px;
   color: #86878b;
@@ -143,8 +125,7 @@ body {
   list-style: none;
 }
 .pricing__feature {
-  height: 50px;
-  padding-top: 14px;
+  padding: 14px 10px;
   border-bottom: 2px solid #f5f5f5;
   background-color: #ffffff;
   font-size: 18px;
