@@ -344,7 +344,7 @@ footer{
     
 }.download{
     text-align: center;
-    padding: 70px 170px;
+    padding: 70px 0;
     background-image: url(../img/download__background.jpg);
     background-position: center;
     background-repeat: no-repeat;
