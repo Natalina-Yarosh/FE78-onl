@@ -48,6 +48,86 @@ ul {
 }
 
 
+.banner {
+    padding: 306px 0 250px;
+    background-image: url(image/image-banner.webp);
+}
+
+.banner_bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+}
+
+.banner_bg::before {
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner__container {
+    position: relative;
+}
+
+.banner__logo {
+    display: block;
+    margin-bottom: 73px;
+}
+
+.title_banner {
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 500;
+    max-width: 734.5px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    color: #FFFFFF;
+
+    position: relative;
+}
+
+.title_banner::after {
+    content: '';
+    display: inline-block;
+    width: 170px;
+    border: 1px solid #FFFFFF;
+
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+
+.text_banner {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    max-width: 270px;
+    margin-bottom: 50px;
+}
+
+.button_banner {
+    min-width: 270px;
+}
+
+.button {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+    padding: 18px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+}
+
 .social {
     padding: 32px 0 20px;
     background-color: #F5F5F5;
@@ -131,7 +211,6 @@ ul {
     line-height: 21px;
     font-weight: 400;
     color: #86878B;
-    margin-top: 40px;
 }
 
 .awesome__list {
@@ -283,6 +362,8 @@ ul {
 .feedback__img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .feedback__customer-info {
@@ -301,6 +382,57 @@ ul {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+}
+
+
+.stylish {
+    padding: 70px 0;
+    background-image: url(image/image-stylish.webp);
+}
+
+.stylish_bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.stylish_bg::before {
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stylish__container {
+    text-align: center;
+
+    position: relative;
+}
+
+
+.stylish__title {
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.stylish__text {
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.stylish__title::after {
+    border-color: transparent;
+}
+
+.stylish__button {
+    min-width: 370px;
 }
 
 
@@ -332,6 +464,3 @@ ul {
     color: rgba(217, 217, 217, 0.5);
     text-align: center;
 }
-
-
-
