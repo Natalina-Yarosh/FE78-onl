@@ -78,14 +78,19 @@ a {
 
 }
 
+.banner__logo {
+    margin-bottom: 73px;
+
+}
+
 .banner__title {
-    margin: 73px 0 80px;
+    margin-bottom: 80px;
     font-size: 48px;
     line-height: 56px;
     font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
-    flex-basis: 734px;
+    max-width: 734px;
 
     position: relative;
 }
@@ -105,13 +110,15 @@ a {
 }
 
 .banner__text {
-    margin: 0 auto 50px;
+    max-width: 270px;
+    margin-bottom: 50px;
     color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
 }
 
-.button__download {
-    width: 270px;
-    height: 58px;
+.button {
+    padding: 15.5px;
     background-color: transparent;
     border: 2px solid #FFFFFF;
     font-family: "Open Sans", sans-serif;
@@ -120,6 +127,10 @@ a {
     font-weight: 600;
     text-transform: capitalize;
     color: #FFFFFF;
+}
+
+.button_banner {
+    min-width: 270px;
 }
 
 
@@ -359,7 +370,7 @@ a {
 .feedback__text {
     padding: 38px 25px;
     background: #E2E2E2;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
@@ -454,8 +465,8 @@ a {
     color: #FFFFFF;
 }
 
-.button__download-large {
-    width: 370px;
+.button_design {
+    min-width: 370px;
 }
 
 
