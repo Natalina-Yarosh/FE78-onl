@@ -295,21 +295,14 @@ a {
   font-family: 'Raleway', sans-serif;
 }
 
-a {
-  max-width: 53px;
-  max-height: 53px;
-}
-
 
 
 .customers {
   background-color: #FFFFFF;
-  padding: 122px;
+  padding: 122px 0;
 }
 
 .customers__container {
-  max-width: 1170px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -317,12 +310,10 @@ a {
   font-size: 36px;
   line-height: 42px;
   font-family: 'Raleway', sans-serif;
-  margin: 0 auto;
-  padding: 0 15px;
-  text-align: center;
   color: #000000;
   text-transform: uppercase;
   position: relative;
+  margin-bottom: 80px;
 
   
 }
@@ -334,7 +325,9 @@ width: 170px;
 border: 1px solid #EC7979;
 position: absolute;
 bottom: -40px;
-left: calc(50% - 85px);
+left: 50%;
+transform: translateX(-50%);
+font-weight: 400;
 }
 
 .customers__subtitle {
@@ -342,7 +335,7 @@ left: calc(50% - 85px);
   line-height: 21px;
   font-family: 'Raleway', sans-serif;
   color: #86878B;
-  margin: 80px;
+  margin-bottom: 83px;
 }
 
 .customers__cards {
@@ -352,42 +345,39 @@ left: calc(50% - 85px);
   justify-content: space-between;
 }
 
-.customer__text-block {
+.customers__text-block {
   background-color: #E2E2E2;
   border-radius: 10px;
   padding: 38px 24px 38px;
-  text-align: center;
    margin-bottom: 66px;
    position: relative;
    
 }
 
-.customer__text{
+.customers__text{
   font-size: 18px;
   line-height: 21px;
   color: #86878B;
   font-family: 'Raleway', sans-serif;
 }
 
-.customer__avatar{
+.customers__avatar{
   width: 70px;
   height: 70px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.customer__author{
+.customers__author{
      display: flex;
-    padding: 0 15px;
-    margin: 0 auto;
-    margin-bottom: 127px;
+     column-gap: 30px;
 }
 
-.customer__text-block::after {
+.customers__text-block::after {
     content: '';
   position: absolute;
   bottom: -12px;
-  left: 50%;
+  left: 65px;
   transform: translateX(-10%); 
   border-width: 12px 10px 0 10px;
   border-style: solid;
@@ -396,24 +386,25 @@ left: calc(50% - 85px);
 
 
 
-.customer__meta{
-      margin: 0 40px 30px;
+.customers__meta{
+      text-align: left;
 }
 
-.customer__name{
+.customers__name{
       font-size: 23px;
     line-height: 30px;
+    margin-bottom: 18px;
 }
 
-.customer__role{
+.customers__role{
   font-size: 18px;
-  list-style: 21px;
+  line-height: 21px;
   color: #000;
   font-family: 'Raleway', sans-serif;
 }
 
 .banner{
-  padding: 306px 170px 250px;
+  padding: 306px 0 250px;
   background-image: url(../assets/cyti.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -433,15 +424,7 @@ top: 0;
 }
 
 .banner__container{
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
   position: relative;
-
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   text-align: left;
 }
 
@@ -458,7 +441,7 @@ top: 0;
   margin-bottom: 80px;
   text-transform: uppercase;
   font-weight: 500;
-  width: 734px;
+  max-width: 734px;
 
   position: relative;
 }
@@ -470,7 +453,7 @@ width: 170px;
 border: 1px solid #FFFFFF;
 position: absolute;
 bottom: -40px;
-left: calc(50% - 0);
+left: 0;
 }
 
 .banner__subtitle{
@@ -480,29 +463,30 @@ left: calc(50% - 0);
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  width: 270px;
+  max-width: 270px;
 }
 
 .banner__link{
 font-family: 'Open Sans', sans-serif;
 font-weight: 600;
 font-size: 18px;
-line-height: 25px;
+line-height: 24px;
 align-items: center;
 text-align: center;
 text-transform: capitalize;
 color: #FFFFFF;
 text-decoration: none;
 border: 2px solid #FFFFFF;
-padding: 17px 90px;
+padding: 15px;
 min-width: 270px;
-
+display: inline-block;
+text-align: center;
 }
 
 
 
 .design{
-  padding: 70px 167px;
+  padding: 70px 0;
   background-image: url(../assets/footer.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -522,22 +506,15 @@ top: 0;
 }
 
 .design__container{
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
   position: relative;
-
-
- 
   text-align: center;
-  align-items: center;
 }
 
 
 
 .design__title{
   font-size: 36px;
-  font-family: 'Raleway', sans-serif;
+  line-height: 42px;
   color: #FFFFFF;
   margin-bottom: 80px;
   text-transform: uppercase;
@@ -546,6 +523,7 @@ top: 0;
 
 .design__subtitle{
   font-size: 18px;
+  line-height: 21px;
   margin-bottom: 80px;
   color: #FFFFFF;
   font-family: 'Raleway', sans-serif;
@@ -556,14 +534,15 @@ top: 0;
 font-family: 'Open Sans', sans-serif;
 font-weight: 600;
 font-size: 18px;
-line-height: 25px;
+line-height: 24px;
 align-items: center;
 text-align: center;
 text-transform: capitalize;
 color: #FFFFFF;
 text-decoration: none;
 border: 2px solid #FFFFFF;
-padding: 15px 140px;
+padding: 15px;
 min-width: 370px;
+display: inline-block;
 
 }
