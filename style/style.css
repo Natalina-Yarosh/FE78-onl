@@ -485,6 +485,133 @@ a{
     padding:15px;
 }
 
+.contact-us{
+    padding:100px 0 165px;
+    text-align: center;
+}
+
+.contact-us__title{
+    font-size:36px;
+    line-height: 42px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    margin-bottom: 80px;
+
+    position: relative;
+}
+
+.contact-us__title::after{
+    content: '';
+    display:block;
+    width:170px;
+    border:1px solid rgba(236, 121, 121, 1);
+    position: absolute;
+    bottom:-40px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.contact-us__text{
+    font-size:18px;
+    line-height: 21px;
+    font-weight: 400;
+    color:rgba(134, 135, 139, 1);
+    margin-bottom: 89px;
+}
+
+
+
+.form__group{
+    display:flex;
+    gap: 30px;                    
+    margin-bottom:50px;
+}
+
+
+
+.form__inputs{
+    display:flex;
+    flex-direction: column;
+    row-gap:50px;
+    flex-basis:571px;
+}
+
+.form__input{
+    
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 1);
+    border:none;
+    border-bottom:1px solid rgba(189, 189, 189, 1);
+    padding-bottom: 16px;
+    transition: border-bottom 0.3s ease;
+}
+
+.form__input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(189, 189, 189, 1);
+}
+
+.form__input:focus{
+    outline: none;
+    border-bottom: 2px solid rgba(236, 121, 121, 1);
+}
+
+.form__textarea{
+    flex-basis:571px;
+    resize:none;
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 1);
+    border: 1px solid transparent; 
+    border-bottom:1px solid rgba(189, 189, 189, 1);
+    transition: border 0.3s ease;
+}
+
+.form__textarea::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(189, 189, 189, 1);
+}
+
+.form__textarea:focus{
+    outline: none;
+    border: 2px solid rgba(236, 121, 121, 1);
+}
+
+.form__btn{
+    border:none;
+    min-width:370px;
+    padding:21px;
+    background-color: rgba(236, 121, 121, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size:18px;
+    font-weight:600;
+    line-height:25px;
+    font-family: "Open Sans", sans-serif;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+
+.form__btn:hover{
+    opacity:0.7;
+}
+
+.form__btn:active{
+    border:2px solid rgba(236, 121, 121, 1);
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(236, 121, 121, 1);
+}
 
 
 .footer{
