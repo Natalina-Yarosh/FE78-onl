@@ -14,7 +14,7 @@ body{
     padding: 22px 170px;
 
 }
-.container{
+.header__container{
     max-width: 1200px;
     padding: 15px 0;
     display: flex;
@@ -38,10 +38,98 @@ body{
     line-height: 19px;
     text-align: center;
 }
+
+.banner{
+    padding: 306px 0px 250px 170px ;
+    background-image: url(../img/banner_bnr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:left ;
+    position: relative;
+
+}
+.banner::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner__container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+}
+
+
+.banner__title{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin:72px 0px 80px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    max-width: 734px ;
+
+
+}
+
+
+
+.banner__title::after{
+content: "";
+display: inline-block;
+width: 170px;
+height: 2px;
+background-color: #FFFFFF;
+position: absolute;
+top: 130%;
+left: 0;
+background-color: #FFFFFF;
+
+}
+
+.banner__text{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+    max-width: 270px;
+}
+
+.banner__button{
+    min-width: 270px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    border: 2px #FFFFFF solid ;
+    padding: 14px 0;
+}
+
 .social{
     padding: 32px 170px 20px;
     background-color: #F5F5F5;
 }
+
+.social__container{
+    max-width: 1200px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
 .social__info{
     width: 470px;
 }
@@ -113,6 +201,7 @@ body{
     column-gap: 27px;
  
 }
+
 
 
 .item__icon{
