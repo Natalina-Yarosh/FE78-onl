@@ -485,6 +485,11 @@ ul {
     min-width: 571px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000000;
 }
 
 .contact__group-message {
