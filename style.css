@@ -464,3 +464,60 @@ ul {
     color: rgba(217, 217, 217, 0.5);
     text-align: center;
 }
+
+.contact {
+    padding: 121.5px 0;
+    background-color: #FFFFFF;
+}
+
+.contact__header {
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.contact__groups {
+    display: flex;
+    column-gap: 30px;
+}
+
+.contact__input {
+    margin-bottom: 50px;
+    min-width: 571px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.contact__group-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact__input_message {
+    resize: none;
+    min-width: 569px;
+    flex-grow: 1;
+}
+
+.contact__label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.contact__btm {
+    min-width: 370px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #EC7979;
+    border: none;
+}
+
+
+    
