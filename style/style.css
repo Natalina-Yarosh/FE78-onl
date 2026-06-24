@@ -128,9 +128,6 @@ input {
     line-height: 25px;
     font-weight: 600;
     text-transform: capitalize;
-    /* background-color: transparent;
-    border: 2px solid #FFFFFF;
-    color: #FFFFFF; */
 }
 
 .button_banner {
@@ -513,21 +510,15 @@ input {
     padding-bottom: 19px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    text-transform: capitalize;
     font-family: "Open Sans", sans-serif;
 }
 
 .form__input::placeholder {
-    /* font-size: 14px; */
-    /* line-height: 19px; */
-    /* font-weight: 400; */
     color: #BDBDBD;
-    /* text-transform: capitalize; */
-    /* font-family: "Open Sans", sans-serif; */
+    text-transform: capitalize;
 }
 
 .form__message {
@@ -536,21 +527,15 @@ input {
     width: 50%;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    text-transform: capitalize;
     font-family: "Open Sans", sans-serif;
 }
 
 .form__message::placeholder {
-    /* font-size: 14px; */
-    /* line-height: 19px; */
-    /* font-weight: 400; */
     color: #BDBDBD;
-    /* text-transform: capitalize; */
-    /* font-family: "Open Sans", sans-serif; */
+    text-transform: capitalize;
 }
 
 .button_send-message {
