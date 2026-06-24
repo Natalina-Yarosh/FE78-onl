@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+input {
+    outline: none;
+}
+
 
 /*  */
 .mainheader {
@@ -119,18 +123,21 @@ a {
 
 .button {
     padding: 15.5px;
-    background-color: transparent;
-    border: 2px solid #FFFFFF;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     line-height: 25px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #FFFFFF;
+    /* background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF; */
 }
 
 .button_banner {
     min-width: 270px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -214,7 +221,9 @@ a {
     position: absolute;
     /* top: 100%; */
     bottom: -40px;
-    left: calc(50% - 85px);
+    /* left: calc(50% - 85px); */
+    left: 50%;
+    transform: translateX(-50%);
     /* margin-top: 40px; */
 }
 
@@ -467,7 +476,90 @@ a {
 
 .button_design {
     min-width: 370px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
 }
+
+
+/*  */
+.contact {
+    padding: 121px 0;
+    text-align: center;
+}
+
+.form {
+    margin-top: 89px;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.form__inputs {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.form__input {
+    width: 100%;
+    /* height: 38px; */
+    /* padding: 11px 0; */
+    padding-bottom: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+}
+
+.form__input::placeholder {
+    /* font-size: 14px; */
+    /* line-height: 19px; */
+    /* font-weight: 400; */
+    color: #BDBDBD;
+    /* text-transform: capitalize; */
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+.form__message {
+    resize: none;
+    outline: none;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+}
+
+.form__message::placeholder {
+    /* font-size: 14px; */
+    /* line-height: 19px; */
+    /* font-weight: 400; */
+    color: #BDBDBD;
+    /* text-transform: capitalize; */
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+.button_send-message {
+    min-width: 370px;
+    background-color: #EC7979;
+    border: none;
+    color: #FFFFFF;
+}
+
 
 
 /*  */
