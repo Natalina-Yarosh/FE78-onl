@@ -399,6 +399,116 @@ line-height: 21px;
 .commentor__title{
     margin-bottom: 18px;
 }
+
+.contact{
+    padding: 121px 170px;
+}
+
+.contact__container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.contact__title{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    position: relative;
+    text-transform: uppercase
+}
+
+.contact__title::after{
+    content: " ";
+    position: absolute;
+    width: 170px;
+    height: 2px;
+    background-color: #EC7979;
+    bottom: -40px;
+    left: calc(50% - 85px);
+}
+
+.contact__text{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 89px;
+    color: #86878B
+}
+
+
+.form__group{
+    display:flex;
+    column-gap: 30px;                    
+    margin-bottom:50px;
+}
+
+
+
+.form__inputs{
+    display:flex;
+    flex-direction: column;
+    row-gap:50px;
+    flex-basis:571px;
+}
+
+.form__input{
+    
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 1);
+    border:none;
+    border-bottom:1px solid rgba(189, 189, 189, 1);
+    padding-bottom: 16px;
+    
+}
+
+.form__input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(189, 189, 189, 1);
+}
+
+
+
+.form__textarea{
+    flex-basis:571px;
+    resize:none;
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(0, 0, 0, 1);
+    border: 1px solid transparent; 
+    border-bottom:1px solid rgba(189, 189, 189, 1);
+}
+
+.form__textarea::placeholder{
+    font-family: "Open Sans", sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 19px;
+    color:rgba(189, 189, 189, 1);
+}
+
+.form__btn{
+    border:none;
+    min-width:370px;
+    padding:21px;
+    background-color: rgba(236, 121, 121, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size:18px;
+    font-weight:600;
+    line-height:25px;
+    font-family: "Open Sans", sans-serif;
+}
+
 footer{
     background-color:#000000 ;
     padding: 35px 470px 27px;
