@@ -221,7 +221,9 @@ input {
     position: absolute;
     /* top: 100%; */
     bottom: -40px;
-    left: calc(50% - 85px);
+    /* left: calc(50% - 85px); */
+    left: 50%;
+    transform: translateX(-50%);
     /* margin-top: 40px; */
 }
 
@@ -482,14 +484,15 @@ input {
 
 /*  */
 .contact {
-    padding: 121px;
+    padding: 121px 0;
     text-align: center;
 }
 
-.form {}
+.form {
+    margin-top: 89px;
+}
 
 .form__group {
-    margin-top: 89px;
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
@@ -505,18 +508,26 @@ input {
 
 .form__input {
     width: 100%;
-    height: 38px;
+    /* height: 38px; */
+    /* padding: 11px 0; */
+    padding-bottom: 19px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-}
 
-.form__input::placeholder {
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    color: #BDBDBD;
     text-transform: capitalize;
     font-family: "Open Sans", sans-serif;
+}
+
+.form__input::placeholder {
+    /* font-size: 14px; */
+    /* line-height: 19px; */
+    /* font-weight: 400; */
+    color: #BDBDBD;
+    /* text-transform: capitalize; */
+    /* font-family: "Open Sans", sans-serif; */
 }
 
 .form__message {
@@ -525,18 +536,24 @@ input {
     width: 50%;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-}
 
-.form__message::placeholder {
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    color: #BDBDBD;
     text-transform: capitalize;
     font-family: "Open Sans", sans-serif;
 }
 
-.button_SendMessage {
+.form__message::placeholder {
+    /* font-size: 14px; */
+    /* line-height: 19px; */
+    /* font-weight: 400; */
+    color: #BDBDBD;
+    /* text-transform: capitalize; */
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+.button_send-message {
     min-width: 370px;
     background-color: #EC7979;
     border: none;
