@@ -179,7 +179,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-.awesome__header {
+.awesome__info {
     margin-bottom: 92px;
     text-align: center;
     color: #000000;
@@ -203,7 +203,8 @@ ul {
 
     position: absolute;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .text {
@@ -307,7 +308,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-.feedback__title {
+.feedback__info {
     text-align: center;
 }
 
@@ -470,7 +471,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-.contact__header {
+.contact__info {
     text-align: center;
     margin-bottom: 89px;
 }
@@ -478,6 +479,16 @@ ul {
 .contact__groups {
     display: flex;
     column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+input, textarea {
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: red;
 }
 
 .contact__input {
@@ -490,18 +501,21 @@ ul {
     line-height: 19px;
     font-weight: 400;
     color: #000000;
+    padding: 10px 0 16px;
+    width: 100%;
 }
 
-.contact__group-message {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.contact__input:last-child {
+    margin-bottom: 0;
+}
+
+.contact__group {
+    flex-basis: 571px;
 }
 
 .contact__input_message {
     resize: none;
-    min-width: 569px;
-    flex-grow: 1;
+    min-height: 265px;
 }
 
 .contact__label {
@@ -510,9 +524,10 @@ ul {
     line-height: 100%;
     font-weight: 400;
     color: #BDBDBD;
+    display: block;
 }
 
-.contact__btm {
+.contact__btn {
     min-width: 370px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -522,6 +537,8 @@ ul {
     padding: 20px;
     background-color: #EC7979;
     border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 
