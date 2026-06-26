@@ -12,18 +12,21 @@ body{
 
 .container{
     max-width: 1200px;
-    padding: 15px 0;
+    padding: 0px 15px;
     margin: 0 auto;
+    
+    
 }
 
 .header{
     background-color:#000000 ;
-    padding: 22px ;
+    padding: 22px 0px;
 
 }
 .header__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__links{
@@ -40,7 +43,7 @@ body{
 }
 
 .banner{
-    padding: 306px 0px 250px 170px ;
+    padding: 306px 0px 250px;
     background-image: url(../img/banner_bnr.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -67,14 +70,16 @@ body{
     position: relative;
 }
 
+.banner__logo{
+    margin-bottom: 72px;
+}
 
 .banner__title{
     font-weight: 500;
-    font-style: medium;
     font-size: 48px;
     line-height: 56px;
     text-transform: uppercase;
-    margin:72px 0px 80px;
+    margin-bottom:  80px;
     color: rgba(255, 255, 255, 1);
     position: relative;
     max-width: 734px ;
@@ -91,7 +96,8 @@ width: 170px;
 height: 2px;
 background-color: #FFFFFF;
 position: absolute;
-top: 130%;
+top: 100%;
+transform: translateY(40px  );
 left: 0;
 background-color: #FFFFFF;
 
@@ -100,7 +106,7 @@ background-color: #FFFFFF;
 .banner__text{
     font-size: 18px;
     line-height: 21px;
-    font-weight: 400px;
+    font-weight: 400;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 50px;
     max-width: 270px;
@@ -167,10 +173,8 @@ background-color: #FFFFFF;
     padding: 100px 0;
 }
 .preview__container{
-    max-width: 1200px;
-    padding: 0 15px;
+   
     text-align: center;
-    margin-bottom: 0 auto;
 }
 .preview__title{
     font-size: 36px;
@@ -227,10 +231,7 @@ margin-bottom: 26px;
 }
 
 .offer__container{
-    max-width: 1200px;
-    padding: 0 15px;
     text-align: center;
-    margin-bottom: 0 auto;
 }
 
 .offer{
@@ -360,6 +361,17 @@ background-color:#E2E2E2 ;
 border-radius: 10px;
 margin-bottom: 66px;
 padding: 38px 25px 37px;
+position: relative;
+}
+
+.comment__textbox::after{
+    content: '';
+    display: inline-block;
+    border: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    position: absolute;
+    top: 100%;
+    left: 70px
 }
 
 .comment__text{
@@ -372,6 +384,7 @@ line-height: 21px;
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    object-fit: cover;
 
 }
 .comment__person-name{
@@ -379,7 +392,14 @@ line-height: 21px;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 18px;
 }
+
+.comment__person-position{
+    font-size: 18px;
+    line-height: 21px;
+}
+
 .comment__person{
     display:flex;
     column-gap: 29px;
@@ -400,13 +420,11 @@ line-height: 21px;
 }
 
 .contact{
-    padding: 121px 170px;
+    padding: 121px 0;
+    text-align: center;
 }
 
 .contact__container{
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
     text-align: center;
 }
 
@@ -426,7 +444,8 @@ line-height: 21px;
     height: 2px;
     background-color: #EC7979;
     bottom: -40px;
-    left: calc(50% - 85px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact__text{
@@ -512,12 +531,7 @@ footer{
     background-color:#000000 ;
     padding: 35px 0 27px;
 }
-.footer__container{
-    max-width: 570px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 .footer__links{
     display: flex;
     justify-content: center;
@@ -567,10 +581,7 @@ footer{
 
 .download__container{
     position: relative;
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
+   
 } 
 
 .download__title{
@@ -590,12 +601,15 @@ footer{
 }
 
 .download__link{
+    font-family: "Open Sans", sans-serif;
     display: inline-block;
     line-height: 28px;
     font-size: 24px;
+    font-weight: 600;
     color: #FFFFFF;
-    border: 4px #FFFFFF solid;
-    padding: 20px 100px;
+    border: 2px #FFFFFF solid;
+    padding: 20px;
+    min-width: 370px;
 }
 
 .download__link:hover {
