@@ -493,7 +493,6 @@ textarea:focus {
 
 .contact__input {
     margin-bottom: 50px;
-    min-width: 571px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     font-family: "Open Sans", sans-serif;
