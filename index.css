@@ -14,20 +14,20 @@ body {
 a {
   text-decoration: none;
 }
+
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
 }
-.awesome__title {
-  font-weight: 400;
+
+.section-title {
+  margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
   font-weight: 400;
   text-align: center;
-  color: #000000;
-  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .section-line {
@@ -35,18 +35,189 @@ a {
   height: 1px;
   margin: 0 auto 40px;
   background-color: #ec7979;
-  margin: 0 auto 40px;
 }
-.awesome__description {
-  color: #86878b;
-  margin-bottom: 92px;
+
+.section-line--light {
+  background-color: #ffffff;
+}
+
+.section-description {
+  margin-bottom: 79px;
   font-size: 18px;
   line-height: 21px;
+  color: #86878b;
+  text-align: center;
 }
+
+.header {
+  background-color: #000000;
+}
+
+.header__container {
+  height: 75px;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-top: 22px;
+  line-height: 0;
+}
+
+.header__logo-img {
+  display: block;
+  width: 87px;
+  height: 31px;
+}
+
+.header__nav {
+  float: right;
+}
+
+.header__link {
+  display: inline-block;
+  width: 114px;
+  padding: 28px 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.banner {
+  padding: 208px 0 185px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner__logo {
+  margin-bottom: 73px;
+  line-height: 0;
+}
+
+.banner__logo-img {
+  display: block;
+  width: 178px;
+  height: auto;
+}
+
+.banner__title {
+  max-width: 670px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.banner__line {
+  margin: 0 0 40px;
+}
+
+.banner__description {
+  max-width: 270px;
+  margin-bottom: 42px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.banner__button,
+.stylish__button {
+  display: block;
+  padding: 16px 10px;
+  border: 2px solid #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.banner__button {
+  width: 270px;
+}
+
+.social {
+  background-color: #f8efef;
+}
+
+.social__container {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 0;
+}
+
+.social__content {
+  display: inline-block;
+  width: 470px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+.social__title {
+  margin-bottom: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+.social__text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+}
+
+.social__links {
+  display: inline-block;
+  width: 670px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.social__link,
+.footer__link {
+  display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.social__link {
+  margin-left: 30px;
+}
+
+.social__link:first-child {
+  margin-left: 0;
+}
+
+.social__icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+
+.awesome {
+  padding: 100px 0 58px;
+  text-align: center;
+}
+
+.awesome .section-description {
+  margin-bottom: 92px;
+}
+
 .awesome__card {
   display: inline-block;
-  width: 371px;
-  margin-right: 10px;
+  width: 370px;
+  margin-right: 25px;
+  vertical-align: top;
+  font-size: 18px;
 }
 
 .awesome__card:last-child {
@@ -76,27 +247,17 @@ a {
   background-color: #f5f5f5;
   text-align: center;
 }
-.pricing__title {
-  font-size: 36px;
-  line-height: 42px;
-  font-weight: 400;
-  color: #000000;
-  margin-bottom: 40px;
-}
-.pricing__line {
-  width: 170px;
-  height: 1px;
-  margin: 0 auto 40px;
-  background-color: #ec7979;
-}
+
 .pricing__description {
   margin-bottom: 79px;
 }
+
 .pricing__card {
   display: inline-block;
   width: 100%;
   max-width: 370px;
   margin-right: 20px;
+  vertical-align: top;
 }
 
 .pricing__card:last-child {
@@ -119,7 +280,6 @@ a {
 
 .pricing__card-price {
   padding: 28px 10px;
-  font-family: "Raleway", sans-serif;
   font-size: 36px;
   line-height: 42px;
   font-weight: 700;
@@ -197,13 +357,7 @@ a {
   height: 70px;
   margin-right: 30px;
   border-radius: 50%;
-  background-color: #ec7979;
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  line-height: 70px;
-  font-weight: 700;
-  color: #ffffff;
-  text-align: center;
+  object-fit: cover;
   vertical-align: top;
 }
 
@@ -224,6 +378,116 @@ a {
 .customers__job {
   font-size: 18px;
   line-height: 21px;
+}
+
+.stylish {
+  padding: 70px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/install.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.stylish__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.stylish__description {
+  margin-bottom: 73px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.stylish__button {
+  width: 370px;
+  margin: 0 auto;
+}
+
+.contact {
+  padding: 100px 0 50px;
+  text-align: center;
+}
+
+.contact__description {
+  margin-bottom: 89px;
+}
+
+.contact__fields {
+  margin-bottom: 50px;
+  font-size: 0;
+}
+
+.contact__inputs {
+  display: inline-block;
+  width: 570px;
+  margin-right: 30px;
+  vertical-align: top;
+}
+
+.contact__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 33px;
+  padding: 0 0 16px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.contact__input:last-child {
+  margin-bottom: 0;
+}
+
+.contact__message {
+  display: inline-block;
+  width: 570px;
+  height: 173px;
+  padding: 0 0 16px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  resize: none;
+  vertical-align: top;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.contact__input::placeholder,
+.contact__message::placeholder {
+  color: #bdbdbd;
+}
+
+.contact__input:focus,
+.contact__message:focus {
+  border-color: #ec7979;
+}
+
+.contact__button {
+  display: block;
+  width: 370px;
+  margin: 0 auto;
+  padding: 16px 10px;
+  border: none;
+  background-color: #ec7979;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
 }
 
 .footer {
