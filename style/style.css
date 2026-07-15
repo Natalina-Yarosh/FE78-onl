@@ -11,60 +11,85 @@
 body{
     font-family: "Raleway", sans-serif;
 }
-
+.header{
+    background-color: #000000;
+    padding: 22px 0;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__items{
+    display:flex;
+    column-gap: 30px;
+    list-style: none;
+}
+.navigation__link{
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+.social-media{
+    padding: 32px 0 20px;
+    background-color: #F5F5F5;
+}
+.social-media__container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: center;
+}
+.social-media__description{
+    max-width: 470px;
+}
+.social-media__title{
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    color: #333333;
+}
+.social-media__text{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #333333;
+}
+.social-media__items{
+    display: flex;
+    column-gap: 30px;
+}
+.social-media__link{
+    width: 70px;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 .awesome{
     padding: 100px 0;
     text-align: center;
 }
-
-.pricing{
-    background-color: #F5F5F5;
-    padding: 82px 0 83px;
-    text-align: center;
+.awesome__items{
+    display: flex;
+    column-gap: 27px;
 }
-
-.container{
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
-    margin:0 auto;
-}
-
-.intro__title{
-    font-size: 36px;
-    line-height: 42px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
-
-.intro__line{
-    border: 1px solid #EC7979;
-    max-width: 170px;
-    margin: 0 auto 40px;
-}
-
-.intro__text{
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 400;
-    color:#86878B;
-    margin-bottom: 92px;
-}
-
-.intro__text_margin-bottom_79px{
-    margin-bottom: 79px;
-}
-
 .awesome__item{
-    display: inline-block;
     max-width: 371px;
-    /* width: 100%; */
 }
 .awesome__icon{
+    width: 92px;
+    height: 92px;
     margin-bottom: 24px;
 }
-
 .awesome__subtitle{
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -75,6 +100,45 @@ body{
 .awesome__desc{
     font-size: 18px;
     line-height: 21px;
+}
+.pricing{
+    background-color: #F5F5F5;
+    padding: 82px 0 83px;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin:0 auto;
+}
+.intro{
+    margin-bottom: 92px;
+}
+.intro__title{
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.intro__line{
+    border: 1px solid #EC7979;
+    max-width: 170px;
+    margin: 0 auto 40px;
+}
+.intro__text{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color:#86878B;
+}
+.intro__text_margin-bottom_79px{
+    margin-bottom: 79px;
+}
+.pricing__table{
+    display: flex;
+    column-gap: 30px;
 }
 .pricing__col{
     display: inline-block;
@@ -92,7 +156,6 @@ body{
     color:#FFFFFF;
     border: 2px solid #F5F5F5;
 }
-
 .pricing__col-price{
     background-color: #333333;
     padding: 27px 0;
@@ -102,7 +165,6 @@ body{
     color:#FFFFFF;
     border: 2px solid #F5F5F5;
 }
-
 .pricing__col-text{
     background-color: #333333;
     padding: 13px 0;
@@ -112,7 +174,6 @@ body{
     color: rgba(255, 255, 255, 0.5);
     border: 2px solid #F5F5F5;
 }
-
 .pricing__col-item{
     padding: 13px 0;
     font-weight: 400;
@@ -122,4 +183,30 @@ body{
     color: #86878B;
     background-color: #FFFFFF;
     border: 2px solid #F5F5F5;
+}
+.footer{
+    background-color: #000000;
+    padding: 35px 0 27px;
+}
+.footer__media-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32.8px;
+    margin-bottom: 27.8px;
+}
+.footer__media-link{
+    width: 53.2px;
+    height: 53.2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.copyright{
+    color: rgba(217, 217, 217, 0.5);
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
