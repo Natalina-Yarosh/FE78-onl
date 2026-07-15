@@ -112,6 +112,9 @@ a{
     padding: 0 15px;
     margin:0 auto;
 }
+.intro{
+    margin-bottom: 92px;
+}
 .intro__title{
     font-size: 36px;
     line-height: 42px;
@@ -129,7 +132,6 @@ a{
     line-height: 21px;
     font-weight: 400;
     color:#86878B;
-    margin-bottom: 92px;
 }
 .intro__text_margin-bottom_79px{
     margin-bottom: 79px;
